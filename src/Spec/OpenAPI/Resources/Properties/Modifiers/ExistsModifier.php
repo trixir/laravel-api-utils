@@ -19,7 +19,7 @@ class ExistsModifier extends BasePropertyModifier implements PropertyModifierInt
     public function getDefinition(string $rule): array
     {
         $def = explode(":", $rule)[1];
-        $arr = explode(",", $def, 2);
+        $arr = explode(",", $def);
 
         $model = Str::singular(Str::studly($arr[0]));
         $attribute = $arr[1] ?? "ID";
