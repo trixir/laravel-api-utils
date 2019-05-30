@@ -1,0 +1,17 @@
+{
+  "name": "trixir/laravel-api-utils",
+  "description": "Contains common functionality shared between Laravel API projects.",
+  "keywords": [
+    "trixir",
+    "laravel-api-utils"
+  ],
+  "require": {
+    "php": "^7.2",
+    "laravel/framework": "~5.8"
+  },
+  "autoload": {
+    "psr-4" : {
+      "Trixir\\LaravelAPIUtils\\" : "src"
+    }
+  }
+}
